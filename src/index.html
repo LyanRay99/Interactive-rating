@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating</title>
+    <link rel="icon" type="favicon" href="../Media/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../src/style.css">
+    <script src="../library/jQuery/jquery-v3.6.1.js"></script>
+</head>
+
+<body>
+    <section class="section">
+        <span class="section__star">
+            <i class="icon fa-solid fa-star"></i>
+        </span>
+
+        <h2 class="section__title">How did we do?</h2>
+
+        <p class="section__content">
+            Please let us know how did
+            with your
+            support request.
+            All feedback is appreciated
+            to help
+            us improve our offering!
+        </p>
+
+        <ul class="section__lists">
+            <li class="section__list__1">1</li>
+            <li class="section__list__2">2</li>
+            <li class="section__list__3">3</li>
+            <li class="section__list__4">4</li>
+            <li class="section__list__5">5</li>
+        </ul>
+
+        <button class="section__button">SUBMIT</button>
+
+        <div class="modal">
+            <img class="modal__img" src="../Media/illustration-thank-you.svg" alt="">
+
+            <p class="modal__result">You selected 4 out of 5</p>
+
+            <p class="modal__thanks">Thank you!</p>
+
+            <p class="modal__content">
+                We appreciate you taking the time to give a
+                rating. If you ever need more support,
+                don't hesitate to get in touch!
+            </p>
+
+            <button class="modal__close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
